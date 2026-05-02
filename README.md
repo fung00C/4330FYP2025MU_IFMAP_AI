@@ -54,3 +54,25 @@
 ├── input/                              # (可選) 原始 CSV 資料夾
 └── README.md
 
+## 🚀 安裝與執行
+- 1. 安裝依賴套件
+Bashpip install yfinance pandas numpy matplotlib tensorflow keras scikit-learn
+TA-Lib 安裝（Colab 環境）：
+Notebook 中已包含安裝指令，直接執行即可。
+- 2. 執行步驟
+
+## 🔧 模型架構
+
+- 多層 LSTM + Dropout
+- 使用 Huber Loss 與 Adam 優化器
+- 時間序列滑動窗口輸入
+- 單一步驟預測（可擴展為多步預測）
+
+
+## 📈 未來優化方向
+
+- 加入宏觀經濟指標與市場情緒分析
+- 使用 Transformer 或 Temporal Fusion Transformer
+- 模型集成（Ensemble Learning）
+- 結合交易策略進行回測
+- 實時預測系統開發
