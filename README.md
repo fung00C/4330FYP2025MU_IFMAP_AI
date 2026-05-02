@@ -57,11 +57,13 @@
 ```
 
 ## 🚀 安裝與執行
-- 1. 安裝依賴套件
+1. 安裝依賴套件
+```
 Bashpip install yfinance pandas numpy matplotlib tensorflow keras scikit-learn
-TA-Lib 安裝（Colab 環境）：
-Notebook 中已包含安裝指令，直接執行即可。
-- 2. 執行步驟
+```
+  - TA-Lib 安裝（Colab 環境）：
+  - Notebook 中已包含安裝指令，直接執行即可。
+2. 執行步驟
 
 ## 🔧 模型架構
 
